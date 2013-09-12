@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dt_main"
+     	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    	android:gravity="top"
+        android:orientation="vertical" 
+        android:focusable="true"
+        android:background="@drawable/background"
+		android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/dt_layout"
+        	android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#053E7A"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/title_left_btn"
+                style="@style/TitleButton"
+                android:text="@string/left_btn_inside" />
+
+    		<TextView 
+    	    	style="@style/TitleHeader"
+				android:gravity="center" 
+				android:id="@+id/maintitle"
+				android:text="@string/title_inside"/>
+			<Button 
+		    	style="@style/TitleButton" 
+		    	android:id="@+id/title_right_btn"
+		    	android:visibility="invisible"
+		    	android:text="@string/right_btn_detail"/>
+		</LinearLayout>
+    <android.webkit.WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </android.webkit.WebView> 
+
+   	</LinearLayout>

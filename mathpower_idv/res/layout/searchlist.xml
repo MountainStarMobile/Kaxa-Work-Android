@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchlist_linearly"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:background="@drawable/qcell_blue"
+    android:orientation="horizontal" >
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+         >
+    <ProgressBar 
+        android:visibility="visible" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="25dip" 
+        android:layout_marginLeft="25dip" 
+        android:id="@+id/loading" />
+    <ImageView
+        android:contentDescription="@string/imagecontent"
+        android:id="@+id/imageView1"
+        android:src="@drawable/default_photo" 
+        android:visibility="invisible"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:layout_gravity="center"
+        android:layout_width="80dip"
+        android:layout_height="80dip"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="2"
+         >
+
+        <TextView
+            android:id="@+id/label_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" 
+            style="@style/list_text"
+            android:textColor="@color/ioscolor"
+            />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/label_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left" 
+            style="@style/list_text"
+            android:textColor="@color/OrangeRed"
+            />
+
+        <TextView
+            android:id="@+id/label_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/list_text"
+            android:gravity="right"/>
+        </LinearLayout>
+<LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/label_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left" 
+            style="@style/list_text"
+            android:textColor="@color/OrangeRed"
+            />
+
+        <TextView
+            android:id="@+id/label_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right" 
+            style="@style/list_text"
+            />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/label_6"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="left" 
+            style="@style/list_text"
+            android:textColor="@color/ForestGreen"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:contentDescription="@string/imagecontent"
+        android:id="@+id/arrow"
+        android:src="@drawable/arrow" 
+        android:paddingRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

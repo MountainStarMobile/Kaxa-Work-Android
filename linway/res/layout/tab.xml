@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost 
+ 	xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@android:id/tabhost" 
+    android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+ 	> 
+ <LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <TabWidget android:id="@android:id/tabs" 
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content" android:visibility="gone"></TabWidget>
+  <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="4" 
+             />
+
+    <RadioGroup
+        android:id="@+id/rg_main_btns"  
+        android:layout_width="fill_parent"  
+        android:layout_height="60dp" 
+        android:layout_gravity="bottom"  
+        android:gravity="center_vertical"  
+        android:orientation="horizontal" >  
+  
+        <RadioButton 
+            android:id="@+id/main"  
+            style="@style/main_style"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:drawableTop="@drawable/home" 
+            android:text="@string/tab_label_main">  
+        </RadioButton>  
+  
+<!--          <RadioButton 
+            android:id="@+id/mypage"
+            style="@style/main_style"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:drawableTop="@drawable/me" 
+            android:text="@string/tab_label_mypage"
+            >  
+        </RadioButton>   -->
+        
+        <RadioButton 
+            android:id="@+id/inside"
+            style="@style/main_style"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:drawableTop="@drawable/home" 
+            android:text="@string/tab_label_toolbox"
+            >  
+        </RadioButton>        
+  
+        <RadioButton  
+            android:id="@+id/search" 
+            style="@style/main_style" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:drawableTop="@drawable/search"
+            android:text="@string/tab_label_search"  
+            >  
+        </RadioButton> 
+        <RadioButton  
+            android:id="@+id/setting"
+            style="@style/main_style"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:drawableTop="@drawable/setting"
+            android:text="@string/tab_label_setting"  
+            >  
+        </RadioButton>  
+  
+    </RadioGroup>
+ </LinearLayout>
+</TabHost>

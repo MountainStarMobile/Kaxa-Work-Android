@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="Snow">#fffafa</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="black">#000</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#00ff00</color>
+    <color name="OrangeRed">#ff4500</color>
+    <color name="ForestGreen">#228b22</color>
+    <color name="skyblue">#87CEEB</color> 
+    <color name="SlateGray">#708090</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="red">#ff0000</color>
+     <color name="ioscolor">#ff385487</color>
+     <color name="BorderColor">#d1d1d1</color>
+     <color name="BorderTextColorBlue">#00469b</color>
+     <color name="BorderTextColorPink">#ff0054</color>
+     <color name="BorderTextColorBlueDet"> #256fcb</color>
+     <color name="BorderTextColorPinkDet">#fe317a</color>
+	<color name="BorderTextColorGrayDet">#7d7d7d</color>
+	<color name="BorderTextColorBackGroundBlue">#ffdae9f6</color> 
+	<color name="BorderTextColorBackGroundGray">#eaeaea</color>
+	<color name="gold">#b89766</color>
+	<color name="transparent">#00000000</color>
+	<color name="image_border_start">#40990000</color>
+<color name="image_border_end">#FF660000</color>
+<color name="image_border_center">#FFFF3333</color>
+<color name="default_back_color">#FFFF3333</color>
+</resources>

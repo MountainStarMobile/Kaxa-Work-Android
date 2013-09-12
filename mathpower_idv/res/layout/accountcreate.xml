@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView1"
+            android:background="@drawable/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+       			android:layout_height="wrap_content"
+    			android:gravity="center"
+        		android:orientation="vertical" 
+        		android:focusable="true"
+				android:focusableInTouchMode="true" >
+				<LinearLayout
+        	android:layout_width="fill_parent"
+            android:layout_height="50dp"
+		    android:background="@drawable/navigationbar2null"
+            android:gravity="center"
+            android:orientation="horizontal" >
+   
+     		<Button  
+     	    	style="@style/TitleButton" 
+     	    	android:id="@+id/title_left_btn"
+     	    	android:text="@string/left_btn_register"/>
+    		<TextView 
+    	    	style="@style/TitleHeader"
+				android:gravity="center" 
+				android:id="@+id/maintitle"
+				android:text="@string/title_register"/>
+			<Button 
+		    	style="@style/TitleButton" 
+		    	android:id="@+id/title_right_btn"
+		    	android:text="@string/right_btn_register"/>
+		</LinearLayout>
+				<TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/email" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/emailhint"
+                    android:inputType="textEmailAddress" />
+				
+                    <requestFocus />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/passwd" />
+
+                <EditText
+                    android:id="@+id/passwd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/passwdhint"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/repasswd" />
+
+                <EditText
+                    android:id="@+id/repasswd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/repasswdhint"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/name" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/namehint" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/nickname" />
+
+                <EditText
+                    android:id="@+id/nickname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/nicknamehint" />
+                
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/birthdate" />
+
+                <EditText
+                    android:id="@+id/birthdate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/birthdatehint" />
+                
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/phoneno" />
+
+                <EditText
+                    android:id="@+id/phoneno"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="@string/phonenohint" />
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register" />
+
+            </LinearLayout>
+        </ScrollView>

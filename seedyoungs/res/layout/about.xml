@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    	android:gravity="center"
+        android:orientation="vertical" 
+        android:focusable="true"
+		android:focusableInTouchMode="true">
+
+        <LinearLayout
+        	android:layout_width="fill_parent"
+            android:layout_height="50dp"
+		    android:background="@drawable/navigationbar2null"
+            android:gravity="center"
+            android:orientation="horizontal" >
+   
+     		<Button  
+     	    	style="@style/TitleButton" 
+     	    	android:id="@+id/title_left_btn"
+     	    	android:text="@string/left_btn_app"/>
+    		<TextView 
+    	    	style="@style/TitleHeader"
+				android:gravity="center" 
+				android:id="@+id/maintitle"
+				android:text="@string/title_app"/>
+			<Button 
+		    	style="@style/TitleButton" 
+		    	android:id="@+id/title_right_btn"
+		    	android:text="@string/right_btn_app"/>
+		</LinearLayout>
+
+<ScrollView android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"> 
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background_round_full"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" >
+
+                <LinearLayout
+                    android:id="@+id/about"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/border_rounded_white"
+                 >
+                 <TextView 
+                     android:id="@+id/version"
+                     android:gravity="left"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+					 style="@style/news_style"
+					 android:layout_weight="1"
+                     />
+                <TextView
+                    android:id="@+id/versionno"
+                    
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    style="@style/news_style"
+                     />
+
+</LinearLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip"
+                    />
+
+                <TextView
+                    android:id="@+id/about_1"
+                    style="@style/news_style"
+                    android:gravity="left"
+                    android:padding="10dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_rounded_white"
+                    android:text="@string/about_app_text" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip"
+                    />
+                <TextView
+                    android:id="@+id/about_2"
+                    style="@style/news_style"
+                    android:gravity="left"
+                    android:padding="10dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_rounded_white"
+                    android:text="@string/about_app_text" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dip"
+                android:layout_gravity="center"
+                android:text="@string/copyright" />
+
+        </LinearLayout>
+
+</ScrollView>
+   	</LinearLayout>

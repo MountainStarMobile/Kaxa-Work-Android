@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/detaillist_linearly"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+         >
+    <android.webkit.WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </android.webkit.WebView>    
+    </LinearLayout>
+
+<TextView  
+android:id="@+id/dt_asker"
+style="@style/list_text"
+android:textStyle="bold"
+android:textSize="16dip"
+android:textColor="@color/ioscolor"
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content"  
+/> 
+<View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dip"
+                    />
+<TextView  
+android:id="@+id/dt_date"
+style="@style/list_text"
+android:textStyle="bold"
+android:textSize="16dip"
+android:textColor="@color/ioscolor"
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content"  
+/> 
+<View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dip"
+                    />
+
+</LinearLayout>

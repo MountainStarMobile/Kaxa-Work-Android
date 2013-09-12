@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    > 
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center"
+        android:orientation="vertical" 
+        android:focusable="true"
+		android:focusableInTouchMode="true">
+
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:background="@drawable/navigationbar2null"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+   
+     		<Button  
+     	    	style="@style/TitleButton" 
+     	    	android:id="@+id/title_left_btn"
+     	    	android:text="@string/left_btn_ask"/>
+    		<TextView 
+    	    	style="@style/TitleHeader"
+				android:gravity="center" 
+				android:id="@+id/asktitle"
+				android:text="@string/title_ask"/>
+			<Button 
+		    	style="@style/TitleButton" 
+		    	android:id="@+id/title_right_btn"
+		    	android:text="@string/right_btn_ask"/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:orientation="horizontal" 
+    		android:gravity="center">
+
+           	<ImageView
+           	    android:contentDescription="@string/imagecontent"
+           	    android:id="@+id/imageID"
+           	    android:layout_width="240dp"
+           	    android:layout_height="180dp"
+           	    android:adjustViewBounds="true"
+           	    android:src="@drawable/default_photo" />
+
+           	<ImageView
+           	    android:id="@+id/camera"
+           	    android:layout_width="60dp"
+           	    android:layout_height="180dp"
+           	    android:adjustViewBounds="true"
+           	    android:layout_gravity="center"
+           	    android:paddingTop="130dp"
+           	    android:paddingLeft="10dp"
+           	    android:contentDescription="@string/imagecontent"
+           	    android:src="@drawable/camera" />
+    		
+		</LinearLayout>    
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   			android:layout_width="fill_parent"
+   			android:layout_height="fill_parent"
+   			android:gravity="center"
+   			android:orientation="horizontal" >
+       		<Spinner
+           		android:id="@+id/sp_theme"
+           		android:layout_weight="1"
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content" />
+   		</LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:orientation="vertical">
+        	<EditText
+           		android:id="@+id/title"
+           		android:hint="@string/title_hint"
+           		android:layout_width="fill_parent"
+           		android:layout_height="wrap_content"
+           		android:layout_gravity="fill_horizontal" />
+
+        	<EditText
+           		android:id="@+id/msg"
+           		android:hint="@string/message_hint"
+           		android:layout_width="fill_parent"
+           		android:layout_height="wrap_content" 
+           		android:inputType="textMultiLine"/>
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:orientation="horizontal">
+        	<Button
+           		android:id="@+id/askBtn"
+           		android:layout_width="0dip"
+           		android:layout_height="wrap_content"
+           		android:text="@string/title_ask"
+           		android:layout_weight="1"/>
+		</LinearLayout>
+   	</LinearLayout>
+</ScrollView>

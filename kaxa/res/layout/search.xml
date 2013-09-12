@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    	android:gravity="center"
+        android:orientation="vertical" 
+        android:focusable="true"
+        android:background="@drawable/background"
+		android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_1"
+        	android:background="@drawable/navigationbar2null"
+        	android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+   
+     		<Button  
+     	    	style="@style/TitleButton" 
+     	    	android:id="@+id/title_left_btn"
+     	    	android:text="@string/left_btn_search"/>
+    		<TextView 
+    	    	style="@style/TitleHeader"
+				android:gravity="center" 
+				android:id="@+id/maintitle"
+				android:text="@string/title_search"/>
+			<Button 
+		    	style="@style/TitleButton" 
+		    	android:id="@+id/title_right_btn"
+		    	android:text="@string/right_btn_search"/>
+		</LinearLayout>
+		<tw.bot.kaxanet.MyListView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:id="@+id/listView"
+    />
+   	</LinearLayout>

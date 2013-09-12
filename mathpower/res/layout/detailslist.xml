@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dt_main"
+     	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    	android:gravity="center"
+        android:orientation="vertical" 
+        android:focusable="true"
+        android:background="@drawable/background"
+		android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/dt_layout"
+        	android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/navigationbar2null"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/title_left_btn"
+                style="@style/TitleButton"
+                android:text="@string/left_btn_detail" />
+
+    		<TextView 
+    	    	style="@style/TitleHeader"
+				android:gravity="center" 
+				android:id="@+id/maintitle"
+				android:text="@string/title_detail"/>
+			<Button 
+		    	style="@style/TitleButton" 
+		    	android:id="@+id/title_right_btn"
+		    	android:text="@string/right_btn_detail"/>
+		</LinearLayout>
+<TextView  
+android:id="@+id/edu_course"
+style="@style/list_text"
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content" 
+android:textStyle="bold"
+android:textSize="20dip"
+android:textColor="@color/ioscolor"
+android:gravity="left"
+/> 
+<TextView  
+android:id="@+id/dt_title"
+style="@style/list_text"
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content"
+android:textSize="18dip"
+android:textColor="@color/ioscolor"
+android:gravity="left"
+/> 
+<tw.bot.kaxanet.mathpower.MyListView
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:id="@+id/listView"
+    />
+<!-- 		<ListView -->
+<!--         android:cacheColorHint="#000000" -->
+<!--     	android:id="@id/android:list" -->
+<!--     	android:layout_width="fill_parent" -->
+<!--     	android:layout_height="0px" -->
+<!--     	android:layout_weight="1"/> -->
+   	</LinearLayout>

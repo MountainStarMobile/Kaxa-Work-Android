@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, KaxaActivity!</string>
+    <string name="app_name">KaxaQA</string>
+    <string name="tab_label_main">首頁</string>
+    <string name="tab_label_mypage">我的專區</string>
+    <string name="tab_label_search">搜尋</string>
+    <string name="tab_label_setting">設定</string>
+
+    <string name="title_main">首頁</string>
+    <string name="left_btn_main">發問</string>
+    <string name="right_btn_main">離開</string>
+    <string name="lastest_news">最新消息</string>
+    <string name="question_list">問題清單</string>
+    
+    <string name="title_mypage">我的專區</string>
+    <string name="left_btn_mypage">發問</string>
+    <string name="right_btn_mypage">離開</string>
+    
+    <string name="title_search">搜尋清單</string>
+    <string name="left_btn_search">搜尋</string>
+    <string name="right_btn_search">離開</string>
+    
+    <string name="title_setting">設定</string>
+    <string name="left_btn_setting"></string>
+    <string name="right_btn_setting">離開</string>
+    
+    <string name="title_account">帳號設定</string>
+    <string name="left_btn_account"></string>
+    <string name="right_btn_account">返回</string>
+    
+    <string name="title_register">註冊帳號</string>
+    <string name="left_btn_register"></string>
+    <string name="right_btn_register">返回</string>
+    
+    <string name="title_detail">問題與回覆</string>
+    <string name="left_btn_detail">回答</string>
+    <string name="right_btn_detail">返回</string>
+    
+    <string name="title_ask">發問</string>
+    <string name="left_btn_ask"></string>
+    <string name="right_btn_ask">返回</string>
+    
+    <string name="title_app">系統</string>
+    <string name="left_btn_app"></string>
+    <string name="right_btn_app">返回</string>
+    <string name="about_kaxa">關於Kaxa網</string>
+    
+    <string name="setting_title">帳號設定</string>
+    <string name="account_setting">登入我的帳號</string>
+    <string name="create_account">註冊新帳號</string>
+    <string name="forget_passwd">忘記密碼</string>
+
+    <string name="about">關於本系統</string>
+    <string name="about_app">本程式介紹</string>
+    <string name="about_app_text">這是一個行動發問平台，適用於隨時隨地可發問問題的系統，歡迎大家的使用。</string>
+    <string name="about_app_text1">服務項目:\n\t『Kaxa(喀嚓)行動問答家』是一個專注於數理學習的免費多媒體問答平台。發問者只要用手機拍照上傳數理問題，回應者可用相片或影音方式回應，以解決傳統線上數理問答方式的缺點。一起Kaxa吧，讓每顆熱情學習的心持續跳動！</string>
+    <string name="about_app_text2">公司介紹：\n\t我們是喀嚓網，致力於應用數位科技來輔助學生進行更有效率與效果的學習。歡迎大家一起來為這場正在進行的學習革命貢獻心力。</string>
+    <string name="about_us">關於我們</string>
+    <string name="about_us_text">就是關於我們</string>
+    <string name="contact">聯絡我們</string>
+    
+    <string name="account">帳號</string>
+    <string name="accounthint">輸入帳號</string>
+    <string name="passwd">密碼</string>
+    <string name="passwdhint">輸入密碼</string>
+    <string name="repasswd">確認密碼</string>
+    <string name="repasswdhint">再次輸入密碼</string>
+    <string name="name">姓名</string>
+    <string name="namehint">輸入姓名</string>
+    <string name="email">E-mail帳號</string>
+    <string name="emailhint">輸入E-Mail</string>
+    <string name="nickname">暱稱</string>
+    <string name="nicknamehint">輸入暱稱</string>
+    <string name="birthdate">生日</string>
+    <string name="birthdatehint">輸入生日</string>
+    <string name="phoneno">手機</string>
+    <string name="phonenohint">0912345678</string>
+    <string name="register">註冊</string>
+    <string name="setting">登入</string>
+    <string name="reset">清除帳號</string>
+    
+    <string name="title_hint">標題</string>
+    <string name="message_hint">內容</string>
+    
+    <string name="imagecontent">圖片</string>
+    
+    <string name="copyright">MountainStar Copyright</string>
+    
+    <string name="error">錯誤</string>
+    <string name="error_email">Email格式有誤</string>
+	<string name="error_pwd">密碼不一致</string>
+	<string name="error_continue">繼續輸入</string>
+	<string name="succes_regiest">帳號註冊成功!!</string>
+	<string name="setting_now">立即設定</string>
+	<string name="exit">離開</string>
+	<string name="error_regiest">帳號註冊錯誤!!</string>
+	<string name="error_enter_again">重新輸入</string>
+	<string name="succes_validate">帳號驗證成功!!</string>
+	<string name="error_validate">帳號驗證錯誤!!</string>
+	<string name="succes_upload">上傳成功!!</string>
+	<string name="error_upload">上傳失敗!!</string>
+	<string name="not_setting">帳號未設定!!</string>
+	<string name="go_setting">前往設定</string>	
+	<string name="answer">回答</string>
+	<string name="photo_album">相簿</string>
+	<string name="take_picture">相機</string>
+	<string name="cancel">取消</string>	
+	<string name="detaillist_title">標題:</string>	
+	<string name="detaillist_date">建立時間:</string>	
+	<string name="detaillist_asker">發問者:</string>	
+	<string name="detaillist_reply_date">回覆時間:</string>	
+	<string name="detaillist_reply_from">回覆者:</string>	
+	<string name="detaillist_content">內容:</string>	
+	<string name="release_update">放開以更新</string>
+	<string name="pull_update">下拉更新</string>
+	<string name="updating">正在更新</string>
+	<string name="latest_update">最近更新:</string>
+	<string name="my_questions">我的問題</string>
+	<string name="my_reply">我的回覆</string>
+	<string name="my_subscribe">我的訂閱</string>
+	<string name="internet_not_ready">無可用網路!!</string>
+	<string name="enter_query">請輸入查詢資訊</string>
+	<string name="confirm">確認</string>
+	
+</resources>
